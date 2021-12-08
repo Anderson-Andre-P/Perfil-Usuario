@@ -1,0 +1,95 @@
+<nav id="navbar" class="navbar">
+    <button class="return-button">
+        <a href="#">
+            <i class='bx bx-left-arrow-alt'></i>
+        </a>
+    </button>
+    <div class="title-page">
+        <p>
+            Meu Perfil
+        </p>
+    </div>
+</nav>
+
+<section id="data-user">
+    <div class="user">
+        <div class="photo">
+            <!-- <i class='bx bxs-camera camera'></i> -->
+            <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Foto Usuário" class="img-user">
+        </div>
+        <p class="email-user">
+            usuário@email.com
+        </p>
+        <p class="name-user">
+            Nome Usuário
+        </p>
+    </div>
+</section>
+
+<section id="options-page">
+    <div class="link">
+        <a routerLink="/">
+            <i class='bx bxs-key'></i>
+            <br>
+            Alterar Senha
+        </a>
+    </div>
+
+    <div class="link">
+        <a href="#">
+            <i class='bx bxs-user-account'></i>
+            <br>
+            Meus Dados
+        </a>
+    </div>
+    
+    <div class="link">
+        <a href="#">
+            <i class='bx bx-mobile-alt'></i>
+            <br>
+            Meu Contato
+        </a>
+    </div>
+</section>
+
+<div id="modal-alterar-senha" class="active">
+    <i class='bx bx-x close'></i>
+    <div class="conteudo">
+
+        <img src="../../../assets/img/undraw_warning_cyit.svg" alt="" class="image-alterar-senha">
+
+        <div>
+            <h3 class="titulo-alterar-senha">Ops!</h3>
+            <p class="texto-alterar-senha">
+                Esta opção está disponível somente para usuários logados na nossa plataforma!
+            </p>
+        </div>
+
+
+        <button class="btn-ok">
+            Okay
+        </button>
+    </div>
+</div>
+
+<div id="modal-alterar-senha" class="">
+    <i class='bx bx-x close'></i>
+    <div class="conteudo">
+
+        <img src="../../../assets/img/undraw_contact_us_-15-o2.svg" alt="" class="image-alterar-senha">
+
+        <div>
+            <h3 class="titulo-alterar-senha">Contato</h3>
+            <form action="/" class="form-contato">
+                <label for="phone" class="label-contato">Insira seu contato:</label>
+                <input type="tel" name="phone" id="phone" class="input-contato" placeholder="(DD) X XXXX-XXXX">
+                <div class="teste"></div>
+            </form>
+        </div>
+
+
+        <button class="btn-ok">
+            Salvar
+        </button>
+    </div>
+</div>
